@@ -56,7 +56,7 @@ namespace cbdc {
         /// \param val value in currency base units.
         /// \return USD formatted value.
         static auto print_amount(uint64_t val) -> std::string;
-
+        
         /// \brief Creates the specified number spendable outputs each with the
         ///        specified value.
         ///
